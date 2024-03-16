@@ -1,0 +1,25 @@
+/**
+ * @name Nexus Remastered
+ * @description The theme that never came to be, and predecessor to Cyan, remastered and better than before
+ * @author DaBluLite
+ * @authorId 582170007505731594
+ * @version 1.0.0
+ * @invite ZfPH6SDkMW
+ */
+
+/*
+Contributors:
+maenDisease for the darker color scheme
+*/
+
+@import url("https://dablulite.github.io/NexusRemastered/import.css");
+
+:root {
+	--nexus-elevation-shadow: 0 0 0 1.5px var(--nexus-accent-color), 0 2px 10px 0 rgb(0 0 0 / 60%);
+	--nexus-font: 'Montserrat', 'Open Sans';
+	--nexus-accent-color: var(--brand-500);
+	--nexus-blur-radius: 10px;
+	--nexus-status-mask-background: var(--profile-body-background-color);
+	--window-margin: 8;
+	--window-border-radius: 8px;
+}
