@@ -9,7 +9,7 @@
 :root {
     --nexus-version: 24;
     --nexus-subversion: 4;
-    --nexus-patch-version: 16;
+    --nexus-patch-version: 17;
     --nexus-background-primary: var(--background-primary);
     --nexus-background-primary-alt: var(--background-primary);
     --nexus-background-secondary: var(--background-floating);
@@ -455,6 +455,7 @@ aside.sidebarScrollable_d64933>div,
     position: relative;
     overflow-y: scroll;
     height: 125px
+    scrollbar-width: none;
 }
 .field__69fa0 .fieldButton__1edf0 {
     background-color: var(--nexus-background-tertiary) !important;
